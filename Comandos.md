@@ -1,4 +1,4 @@
-GIT - Comandos
+# GIT - Comandos
 Configurar usuario
 - Comandos
     git config --global user.name "nome sobrenome"
