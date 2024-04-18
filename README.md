@@ -18,4 +18,4 @@ Neste módulo iremos dar nossos primeiros pasos no mundo do deseenvolvimento de 
 14. GIT e GitHub.
 15. Prova.
 16. Conectando API no Mongodb.
-17. POO em Typescript.
+17. POO em Typescript .
