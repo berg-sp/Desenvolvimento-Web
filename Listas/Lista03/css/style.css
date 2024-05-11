@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Zeyada&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&family=Yanone+Kaffeesatz:wght@200..700&family=Zeyada&display=swap" rel="stylesheet');
+h1 {
+    text-align: center;
+    font-family: "Yanone Kaffeesatz", sans-serif
+}
+body {
+    background: linear-gradient(#b29d00, #ffffff);
+}
+img {
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+h3 {
+    text-align: center;
+    font-family: "Zeyada", cursive;
+}
+p {
+    text-align: center;
+}
+#menu {
+    text-align: center;
+    font-size: 22px;
+}
+.menu:hover {
+    font-size: 24px;
+}
+
+#produtos {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.produto {
+    width: 200px;
+    height: 300px;
+    margin-top: 40px;
+}
+
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-radius: 10px;
+}
+button:hover {
+    background: linear-gradient(#dfff12,#f3f5f5);
+    transition: 5s ease-in-out;
+}
