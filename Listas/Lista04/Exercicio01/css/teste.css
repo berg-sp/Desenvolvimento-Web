@@ -1,0 +1,13 @@
+.principal {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: red;
+}
+.box {
+    box-sizing: border-box;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: silver;
+    width: calc((100% / 2) - 2rem);
+}
