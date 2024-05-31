@@ -13,5 +13,5 @@
 
 # Referências
 - [V8 JS] - https://pt.wikipedia.org/wiki/V8_(JavaScript)
-- [Node] - https://pt.wikipedia.org/wiki/Node.js
+- [NodeJS] - https://pt.wikipedia.org/wiki/Node.js
 - [Template string] - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
