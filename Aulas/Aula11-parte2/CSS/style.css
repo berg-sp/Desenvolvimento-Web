@@ -3,13 +3,11 @@
 .imagem-astronauta {
     width: 200px;
     height: 200px;
-    transform: rotate(140deg);
-
+    transform: rotate(20deg);
     border-radius: 50%;
-
     /* filter: drop-shadow(16px 16px 20px red) invert(75%); */
     animation: animacao-imagem 5s linear infinite;
-    transition: 1s;
+    /*transition: 1s;*/
 }
 
 .anima-botao {
@@ -19,8 +17,10 @@
 @keyframes animacao-imagem {
     0% {
         transform: rotate(360deg);
-        filter: drop-shadown(16px 16px);
-        border-top-left-radius: 90%;
+        /* filter: drop-shadown(16px 16px); */
+        /* border-top-left-radius: 90%; */
+        /* filter: hue-rotate(900deg); */
+        transform: translate(20px, 20%);
 
     }
 
@@ -30,6 +30,8 @@
     }*/
 
     100% {
-        border-top-left-radius: 10%;
+        transform: rotate(-180deg);
+        /* border-top-left-radius: 10%; */
+        transform: translate(120px, 50%);
     }
 }
